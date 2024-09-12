@@ -122,12 +122,6 @@ If you find a new vulnerability or create a test scenario that improves our cove
 
 ---
 
-## **License**
-
-This repository is licensed under the [MIT License](./LICENSE). Feel free to use, modify, and distribute the tools and protocols provided here.
-
----
-
 With **PIMP**, we aim to strengthen the resilience of LLMs against security risks, ensuring that models are robust against adversarial inputs and manipulation techniques.
 
 ---
