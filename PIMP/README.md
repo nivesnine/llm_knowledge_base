@@ -4,13 +4,6 @@ Welcome to the **Prompt Injection and Manipulation Protocol (PIMP)** repository.
 
 This repository contains tools, scripts, and examples designed to help you implement and execute the PIMP protocol in a controlled environment. The protocol tests for potential risks that could lead to data leaks, malicious code execution, and bypassing of LLM safeguards.
 
-
----
-
-## **Warning**
-
-**(PIMP)** is (currently) entirely AI generated and probably doesn't work in the real world. This warning will be updated after testing.
-
 ---
 
 ## **Table of Contents**

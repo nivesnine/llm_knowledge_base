@@ -57,3 +57,8 @@ cython_debug/
 
 # Other
 *.sqlite3
+
+# Ignore all these
+notes
+Prompts
+PIMP/results/*
