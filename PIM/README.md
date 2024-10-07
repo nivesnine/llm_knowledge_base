@@ -12,7 +12,7 @@ OPENAI_API_KEY = "open api key here"
 
 run tests:
 - `python pim.py` default test will run all prompts in PIM/test/prompts.txt
-- `python pim.py -i input_file_name -o output_file_name -m "model_name -t 5 --validate"` custom test, all flags optional
+- `python pim.py -i input_file_name -o output_file_name -m model_name -t throttle_in_seconds -vm validation_model_name -vf validation_file --validate` custom test, all flags optional
 
 # Everthing below this is [mostly] AI generated from the orginal idea of this tool, stay tuned for updates.
 
