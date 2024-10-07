@@ -1,8 +1,26 @@
-# **Prompt Injection and Manipulation Protocol (PIMP)**
+# Getting Started
+- create a virualenv with pyhton 3.11 `virvutalenv -p /usr/bin/python3.11 env`
+- activate the virtualenv `source env/bin/activate`
+- cd into PIM
+- install requirments `pip install -r requirments.txt`
 
-Welcome to the **Prompt Injection and Manipulation Protocol (PIMP)** repository. This protocol provides a structured approach for evaluating the security vulnerabilities in Large Language Models (LLMs), focusing on identifying weaknesses through prompt injection and manipulation.
+make sure you create a `.env` file at the root of the PIM dir (`/PIM/.env`)
+```
+GOOGLE_API_KEY = "google api key here"
+OPENAI_API_KEY = "open api key here"
+```
 
-This repository contains tools, scripts, and examples designed to help you implement and execute the PIMP protocol in a controlled environment. The protocol tests for potential risks that could lead to data leaks, malicious code execution, and bypassing of LLM safeguards.
+run tests:
+- `python pim.py` default test will run all prompts in PIM/test/prompts.txt
+- `python pim.py -i input_file_name -o output_file_name -m "model_name -t 5 --validate"` custom test, all flags optional
+
+# Everthing below this is [mostly] AI generated from the orginal idea of this tool, stay tuned for updates.
+
+# **Prompt Injection and Manipulation (PIM) Protocol**
+
+Welcome to the **Prompt Injection and Manipulation (PIM) Protocol** repository. This protocol provides a structured approach for evaluating the security vulnerabilities in Large Language Models (LLMs), focusing on identifying weaknesses through prompt injection and manipulation.
+
+This repository contains tools, scripts, and examples designed to help you implement and execute the PIM protocol in a controlled environment. The protocol tests for potential risks that could lead to data leaks, malicious code execution, and bypassing of LLM safeguards.
 
 ---
 
@@ -18,7 +36,7 @@ This repository contains tools, scripts, and examples designed to help you imple
 
 ## **Overview**
 
-The **Prompt Injection and Manipulation Protocol (PIMP)** tests how an LLM responds to manipulated or obfuscated prompts and helps identify areas where it might be vulnerable. By testing edge cases and escalations, PIMP uncovers how LLMs may unintentionally provide sensitive information or behave in unintended ways.
+The **Prompt Injection and Manipulation (PIM) Protocol** tests how an LLM responds to manipulated or obfuscated prompts and helps identify areas where it might be vulnerable. By testing edge cases and escalations, PIM uncovers how LLMs may unintentionally provide sensitive information or behave in unintended ways.
 
 ### **Key Objectives:**
 1. Test LLM responses to crafted input prompts that push boundaries of its ethical guidelines.
@@ -91,7 +109,7 @@ You can explore real-world scenarios and their corresponding test scripts by vis
 
 ## **Risks Identified**
 
-During the execution of PIMP, we specifically test for the following vulnerabilities:
+During the execution of PIM, we specifically test for the following vulnerabilities:
 
 1. **Data Leakage**
    - **Risk:** Manipulated inputs may trick the LLM into revealing confidential information.
@@ -109,13 +127,13 @@ During the execution of PIMP, we specifically test for the following vulnerabili
 
 ## **How to Contribute**
 
-We welcome contributions to improve the effectiveness of the **Prompt Injection and Manipulation Protocol (PIMP)**. Please follow the guidelines in the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
+We welcome contributions to improve the effectiveness of the **Prompt Injection and Manipulation (PIM) Protocol**. Please follow the guidelines in the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
 
 If you find a new vulnerability or create a test scenario that improves our coverage, feel free to submit a pull request!
 
 ---
 
-With **PIMP**, we aim to strengthen the resilience of LLMs against security risks, ensuring that models are robust against adversarial inputs and manipulation techniques.
+With **PIM**, we aim to strengthen the resilience of LLMs against security risks, ensuring that models are robust against adversarial inputs and manipulation techniques.
 
 ---
 

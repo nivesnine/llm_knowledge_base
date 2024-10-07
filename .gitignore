@@ -61,4 +61,4 @@ cython_debug/
 # Ignore all these
 notes
 Prompts
-PIMP/results/*
+PIM/results/*
